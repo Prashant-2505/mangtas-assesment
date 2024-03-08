@@ -1,0 +1,35 @@
+.mainDiv
+{
+      min-height: 100vh;
+      height: 100%;
+      width: 100%;
+      background-color: rgb(228, 107, 107);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+}
+.mainDiv>h1
+{
+    text-align: center;
+    font-weight: 800;
+    font-size: 2rem;
+}
+.mainDiv>input
+{
+  margin: 2rem;
+  width: 60%;
+  height: 3rem;
+  border-radius: 20px;
+  padding:  0 0 0 10px ;
+}
+.mainDiv>ul
+{
+    background-color: antiquewhite;
+    width: 80%;
+    border-radius: 10px;
+    padding: 1rem 2rem;
+}
+.mainDiv>ul>li
+{
+    padding-bottom: 2rem;
+}
